@@ -46,12 +46,13 @@ readme-compile theme="light":
     typst compile --input theme={{theme}} {{readme-typ-file}}
 
 readme-compile-svgs:
-    typst compile -f svg {{readme-typ-file}} assets/README-{p}.svg
-    typst compile -f svg --input theme=dark {{readme-typ-file}} assets/README-dark-{p}.svg
+    typst compile -f svg {{readme-typ-file}} README.svg
+#    typst compile -f svg --input theme=dark {{readme-typ-file}} assets/README-dark-{p}.svg
 
 
 # –––––– [ Setup ] ––––––
-setup: setup-pre-commit-hooks && _add-assets-to-git-exclude
+# setup-pre-commit-hooks &&
+setup: _add-assets-to-git-exclude
     git worktree add assets
 
 [confirm("Add pre-commit hook to .git/hooks/pre-commit?")]

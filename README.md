@@ -1,1 +1,1 @@
-![Introductory PDF](https://raw.githubusercontent.com/LucasLrye/readme_typst/refs/heads/assets/README.svg)
+![README](https://raw.githubusercontent.com/LucasLrye/readme_typst/master/README.svg)
