@@ -1,1 +1,1 @@
-![README](https://raw.githubusercontent.com/LucasLrye/readme_typst/master/README.svg)
+![README](assets/README-1.svg)
